@@ -12,6 +12,8 @@ namespace inquid\blablacar;
 use inquid\blablacar\models\Error;
 use inquid\blablacar\models\Trips;
 
+require '../vendor/autoload.php';
+
 class BlaBlaCar extends HttpClientV1
 {
     /**
